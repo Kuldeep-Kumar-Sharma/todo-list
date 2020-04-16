@@ -1,12 +1,13 @@
 import React from 'react';
 import './List.css';
+import ListItem from '../ListItem/ListItem';
 
 class List extends React.Component{
   render(){ 
     return this.props.list.map( (element,index) =>
-<li key={element.toString()}>
-    {element}
-  </li>
+    <div key={element.task.toString()}>
+          <ListItem item={element}/> 
+    </div>
     )
   };
 }

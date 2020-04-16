@@ -1,0 +1,50 @@
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    width: 80%;
+    height: 50%;
+    margin: 5%;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: white;
+    transition: 0.3s;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  /* Add some padding inside the card container */
+  .container {
+    padding: 2px 16px;
+  }
+
+.add_button{
+    background-color: #8e44ad;
+    color: white;
+    padding: 10px;
+    margin-left: 20px;
+    border-radius: 5px;
+    border: 1px solid rgba(22, 76, 167, 0.6);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    z-index: 0;
+    overflow: hidden;
+    transition: all 0.3s cubic-bezier(0.02, 0.01, 0.47, 1);
+}
+
+/* On mouse-over, add a deeper shadow */
+.add_button:hover {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.input{
+    margin-left: 10px;
+    height: 15px;
+    width: 85%;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid rgba(0,0,0,0.2);
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+}
