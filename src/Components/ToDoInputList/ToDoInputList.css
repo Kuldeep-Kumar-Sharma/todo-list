@@ -1,9 +1,16 @@
+
+.heading{
+  text-align: center;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 .card {
     /* Add shadows to create the "card" effect */
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     width: 80%;
     height: 50%;
-    margin: 5%;
+    margin: 2%;
     padding: 10px;
     border-radius: 5px;
     background-color: white;
